@@ -1,0 +1,53 @@
+@media(min-width: 320px) {
+    .header{
+        &__text{
+            &-Company-name{
+                font-size: 1.4em;
+            }
+        }
+    }
+}
+@media(min-width: 370px) {
+    h3{
+        font-size: 1.4em;
+    }
+    .header{
+        &__text{
+            &-Company-name{
+                font-size: 1.72em;
+            }
+        }
+        &__offers{
+            font-size: 1.1em;
+        }
+    }
+    .section-heading{
+        font-size: 1.7em;
+        &-dark{
+            font-size: 1.7em;
+        }
+    }
+    .cooperation{
+        &-text{
+            font-size: 1.2em;
+        }
+    }
+}
+@media(min-width: 390px) {
+    .header{
+        &__text{
+            &-Company-name{
+                font-size: 1.8em;
+                font-weight: 600;
+            }
+        }
+        &__offers{
+            font-size: 1.05em;
+        }
+    }
+    .section-heading{
+        &-dark{
+            font-size: 2em;
+        }
+    }
+}

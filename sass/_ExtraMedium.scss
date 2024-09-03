@@ -1,0 +1,155 @@
+@media(min-width: 400px) and (min-height: 890px) {
+    h3{
+        font-size: 1.7em;
+    }
+    .header{
+        &__text{
+            padding: 1em 1em;
+            &-Company-name{
+                font-size: 2em;
+                font-weight: 500;
+            }
+            
+        }
+        &__offers{
+            padding-top: 1em;
+            font-size: 1.3em;
+            p{
+                padding: 0;
+            }
+        }
+    }
+    .section-heading{
+        font-size: 1.65em;
+        &-dark{
+            font-size: 2em;
+            padding-bottom: .5em;
+        }
+    }
+    .realizations {
+        &__box{
+            &-title{
+                font-size: 1.1em;
+            }
+        }
+    }
+    
+    .cooperation{
+        &-text{
+            font-size: 1.2em;
+        }
+    }
+    .wrapperNav{
+        h2{
+            font-size: 2em;
+        }
+    }
+}
+
+@media(min-width: 768px) {
+    .PKINW{
+        visibility: hidden;
+        display: none;
+    }
+    .PKIN{
+        visibility: visible;
+        display: block;
+    }
+    .section-heading{
+        font-size: 2em;
+        &-dark{
+            font-size: 2.5em;
+            padding-bottom: 1em;
+        }
+    }
+    .header{
+        padding-bottom: 2em;
+        &__text{
+           p{
+            font-size: 1.1em;
+           }
+        &-Company-name{
+            font-size: 2.1em;
+            font-weight: 550;
+        }
+    }
+    }
+    .swiper{
+        height: 85vh;
+        --swiper-pagination-bullet-size: 1.5em;
+    }
+    .realizations {
+        &__box{
+            padding: 3em .5em;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+           // text-align: center;
+            
+            &-img, &-img-fit{
+                width: 20em;
+                height: 20em;
+                transition: scale 1s;
+                &:hover{
+                    scale: 1.05;
+                }
+            }
+            &-title{
+                width: 100%;
+                padding: .5em 0;
+                font-size: 1em;
+                font-weight: 400;
+                border-top: 0.1em solid $main-color;
+                border-bottom: 0.1em solid $main-color;
+            }
+            &-container{
+                width: 20em;
+                padding-bottom: 1em;
+                gap: 1em;
+            }
+        }
+    }
+
+    .cooperation{
+        padding: 3em 5em;
+        padding-bottom: 0;
+        &-text{
+            text-indent: 1em;
+            text-align:initial;
+            padding: 1em 0;
+            font-weight: 400;
+            font-size: 1.2em;
+        }
+        &-logos{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            overflow: hidden;
+            padding-bottom: 3em;
+            padding-top: .5em;
+            outline: hidden;
+            &-img{
+                height: 10em;
+                width: 10em;
+            }
+        }
+    }
+    .contact{
+        padding: 2em 1em;
+        padding-bottom: 4em;
+        &-container{
+            &-item{
+                color: $white;
+                display: flex;
+                flex-direction: row;
+                font-size: 1.5em;
+                gap: .5em;
+                img{
+                    scale:1.5;
+                }
+            }
+        }
+    }
+}
