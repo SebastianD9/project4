@@ -283,7 +283,7 @@ hr {
 
 .swiper {
   background-color: #2e2e2e;
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   padding-bottom: 0;
   overflow: hidden;
@@ -633,6 +633,7 @@ hr {
     padding: 0;
     font-weight: 600;
     transition: 0.3s;
+    font-size: 1.8em;
   }
   .nav__item::after, .nav__item::before {
     content: "";
@@ -1017,5 +1018,63 @@ hr {
   }
   .footer {
     font-size: 1.2em;
+  }
+}
+@media (min-width: 1600px) {
+  .header {
+    padding: 0 10em;
+  }
+  .realizations, .cooperation {
+    padding: 3em 10em;
+  }
+}
+@media (min-width: 1800px) {
+  .header {
+    padding: 0 15em;
+  }
+  .realizations, .cooperation {
+    padding: 4em 15em;
+  }
+}
+@media (min-width: 2070px) {
+  .desktop-nav {
+    font-size: 1.5em;
+  }
+  .header {
+    font-size: 1.5em;
+    padding: 0 5em;
+  }
+  .realizations, .cooperation, .contact {
+    font-size: 1.5em;
+    padding: 4em 5em;
+  }
+}
+@media (min-width: 2600px) {
+  .header {
+    padding: 0 15em;
+  }
+  .realizations, .cooperation, .contact {
+    padding: 4em 15em;
+  }
+}
+@media (min-width: 3000px) {
+  .desktop-nav {
+    font-size: 2em;
+  }
+  .header {
+    font-size: 2em;
+    padding: 0 8em;
+  }
+  .realizations, .cooperation, .contact {
+    font-size: 2em;
+    padding: 4em 8em;
+  }
+}
+@media (min-width: 3700px) {
+  .header {
+    padding: 0 20em;
+  }
+  .realizations, .cooperation, .contact {
+    padding: 4em 20em;
   }
 }/*# sourceMappingURL=main.css.map */
