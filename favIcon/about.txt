@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Rambla
+- Font Author: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with Reserved Font Name 'Rambla'
+- Font Source: https://fonts.gstatic.com/s/rambla/v13/snfos0ip98hx6mrMn50qPvN4yJuDYQ.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

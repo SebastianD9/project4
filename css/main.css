@@ -590,6 +590,9 @@ hr {
   }
 }
 @media (min-width: 992px) {
+  .anchor {
+    top: -6em;
+  }
   .hamburger {
     display: none;
     visibility: hidden;
